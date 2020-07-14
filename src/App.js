@@ -6,7 +6,7 @@ import Alimento from "./components/alimento";
 function App() {
   return (
     <BrowserRouter>
-      <Alimento></Alimento>
+      <Alimento/>
       <Routes />
     </BrowserRouter>
   );
