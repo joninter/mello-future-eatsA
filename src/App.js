@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import Routes from "./routes";
-import Alimento from "./components/alimento";
+import PedidoCard from "./components/PedidoCard";
 
 function App() {
   return (
     <BrowserRouter>
-      <Alimento/>
+      <PedidoCard></PedidoCard>
       <Routes />
     </BrowserRouter>
   );
